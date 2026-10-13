@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishu Shopping Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛍️ Aishu Store</h1>
+        <p>Shop your favourite products!</p>
+    </header>
+
+    <main>
+        <input type="text" id="search"
+               placeholder="Search products...">
+
+        <h2>Our Products</h2>
+
+        <div class="products" id="products"></div>
+
+        <section class="cart">
+            <h2>🛒 Your Cart</h2>
+            <div id="cart-items">Your cart is empty.</div>
+            <h3>Total: ₹<span id="total">0</span></h3>
+            <button id="checkout">Place Order</button>
+            <p id="message"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
